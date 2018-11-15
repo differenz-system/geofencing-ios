@@ -111,7 +111,7 @@ extension ViewController: CLLocationManagerDelegate {
         currentLocation = location
         
         //  Setup a GeoFence for the new location
-        setupGeofence(radius: 10000.0, identifier: "CurrentLocation")
+        setupGeofence(radius: 500.0, identifier: "CurrentLocation")
     }
     
 }

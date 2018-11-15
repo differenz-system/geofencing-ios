@@ -37,6 +37,24 @@ class Location: NSObject {
     //  Function to populate an array of Dummy/Static Location Points
     internal class func getStaticLocations() -> [Location] {
         
+        let lDifferenzSystem = Location(name: "Differenz System", coordinate: CLLocationCoordinate2D(latitude: 21.1873656, longitude: 72.8107308))
+        let lTirupatiPlazaAWing = Location(name: "Tirupati Plaza A Wing", coordinate: CLLocationCoordinate2D(latitude: 21.1873656, longitude: 72.8107308))
+        let lTirupatiPlazaBWing = Location(name: "Tirupati Plaza B Wing", coordinate: CLLocationCoordinate2D(latitude: 21.1873656, longitude: 72.8107308))
+        let lGovernmentPolytechnicForGirls = Location(name: "Government Polytechnic For Girls", coordinate: CLLocationCoordinate2D(latitude: 21.1869175, longitude: 72.8105608))
+        let lJollyPlaza = Location(name: "Jolly Plaza", coordinate: CLLocationCoordinate2D(latitude: 21.1864528, longitude: 72.8107487))
+        let lLuckyBookStore = Location(name: "Lucky Book Store", coordinate: CLLocationCoordinate2D(latitude: 21.1849167, longitude: 72.8124435))
+        let lMahavirHospital = Location(name: "Mahavir Hospital", coordinate: CLLocationCoordinate2D(latitude: 21.1844047, longitude: 72.8131283))
+        let lKrushimangalHall = Location(name: "Krushimangal Hall", coordinate: CLLocationCoordinate2D(latitude: 21.1827686, longitude: 72.8145898))
+        let lITC = Location(name: "ITC", coordinate: CLLocationCoordinate2D(latitude: 21.1808426, longitude: 72.8191383))
+        let lNirmalHospital = Location(name: "Nirmal Hospital", coordinate: CLLocationCoordinate2D(latitude: 21.1813166, longitude: 72.8235468))
+        let lUdhnaDarwaja = Location(name: "Udhna Darwaja", coordinate: CLLocationCoordinate2D(latitude: 21.183471, longitude: 72.8304641))
+        let lSaharaDarwaja = Location(name: "Sahara Darwaja", coordinate: CLLocationCoordinate2D(latitude: 21.1947558, longitude: 72.8436091))
+        let lRathiPalaceTM = Location(name: "Rathi Palace Textile Market", coordinate: CLLocationCoordinate2D(latitude: 21.1866256, longitude: 72.8383088))
+        let lRaghunandanTM = Location(name: "Raghunandan Textiles Market", coordinate: CLLocationCoordinate2D(latitude: 21.1873005, longitude: 72.8387807))
+        let lUniversalTM = Location(name: "Universal Textile Market", coordinate: CLLocationCoordinate2D(latitude: 21.188686, longitude: 72.8402602))
+        let lParvatPatia = Location(name: "Parvat Patiya", coordinate: CLLocationCoordinate2D(latitude: 21.1899466, longitude: 72.8550205))
+        let lModelTown = Location(name: "Model Town", coordinate: CLLocationCoordinate2D(latitude: 21.187833, longitude: 72.8580075))
+        
         let lSurat = Location(name: "Surat", coordinate: CLLocationCoordinate2D(latitude: 21.170240, longitude: 72.831062))
         let lAdajan = Location(name: "Adajan", coordinate: CLLocationCoordinate2D(latitude: 21.190769, longitude: 72.794006))
         let lAthwa = Location(name: "Athwa", coordinate: CLLocationCoordinate2D(latitude: 21.155250, longitude: 72.765570))
@@ -75,7 +93,10 @@ class Location: NSObject {
         let lVyara = Location(name: "Vyara", coordinate: CLLocationCoordinate2D(latitude: 21.112312, longitude: 73.395750))
         let lChikhli = Location(name: "Chikhli", coordinate: CLLocationCoordinate2D(latitude: 20.756796, longitude: 73.065214))
 
-        return [lAdajan, lUdhna, lPal, lAthwa, lPiplod, lVesu, lSurat,
+        return [lDifferenzSystem, lTirupatiPlazaAWing, lTirupatiPlazaBWing, lGovernmentPolytechnicForGirls, lJollyPlaza,
+                lLuckyBookStore, lMahavirHospital, lKrushimangalHall, lITC, lNirmalHospital,
+                lUdhnaDarwaja, lSaharaDarwaja, lUniversalTM, lRaghunandanTM, lRathiPalaceTM, lParvatPatia, lModelTown,
+                lAdajan, lUdhna, lPal, lAthwa, lPiplod, lVesu, lSurat,
                 lPaldi, lSarkhej, lMemnagar, lVastrapur, lAhmedabad,
                 lAkota, lAlkapuri, lManjalpur, lRaceCourse, lVadodara,
                 lRajkot, lBharuch, lAnand, lNadiad, lBhavnagar, lGandhinagar,
